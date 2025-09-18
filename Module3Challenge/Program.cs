@@ -28,27 +28,27 @@ int dayOfWeek = int.Parse(Console.ReadLine());
 switch (dayOfWeek)
 {
     case 1:
-        Console.WriteLine("Sunday");
+        Console.WriteLine("Enjoy Half off admission for kids on Sundays!");
         break;
     case 2:
-        Console.WriteLine("Monday");
+        Console.WriteLine("Special appearance on Monday");
         break;
     case 3:
-        Console.WriteLine("Tuesday");
+        Console.WriteLine("10% senior discount on Tuesdays");
         break;
     case 4:
-        Console.WriteLine("Wednesday");
+        Console.WriteLine("Animal of the day: Camels! Wednesday");
         break;
     case 5:
-        Console.WriteLine("Thursday");
+        Console.WriteLine("Free fountain drink on thirsty Thursdays");
         break;
     case 6:
-        Console.WriteLine("Friday");
+        Console.WriteLine("Discount on fried foods for Friday");
         break;
     case 7:
-        Console.WriteLine("Saturday");
+        Console.WriteLine("Special discount on Koala exhibit on Saturday");
         break;
     default:
-        Console.WriteLine("You didn't pick a day.");
+        Console.WriteLine("Enoy the zoo!");
         break;
 }
